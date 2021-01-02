@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21655" started-at="2021-01-02T20:03:01 EET" finished-at="2021-01-02T20:03:22 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21655" started-at="2021-01-02T20:03:01 EET" finished-at="2021-01-02T20:03:22 EET">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.LoginTest@33c7e1bb]" name="beforeSuite" is-config="true" duration-ms="18504" started-at="2021-01-02T20:02:42 EET" finished-at="2021-01-02T20:03:01 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="createNewUserSuccessfully()[pri:1, instance:tests.LoginTest@33c7e1bb]" name="createNewUserSuccessfully" duration-ms="7350" started-at="2021-01-02T20:03:01 EET" finished-at="2021-01-02T20:03:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUserSuccessfully -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@33c7e1bb]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2021-01-02T20:03:08 EET" finished-at="2021-01-02T20:03:08 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewUserSuccessfully status=SUCCESS method=LoginTest.createNewUserSuccessfully()[pri:1, instance:tests.LoginTest@33c7e1bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="authenticateNewUser()[pri:0, instance:tests.LoginTest@33c7e1bb]" name="authenticateNewUser" duration-ms="9238" started-at="2021-01-02T20:03:08 EET" depends-on-methods="tests.LoginTest.createNewUserSuccessfully" finished-at="2021-01-02T20:03:17 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticateNewUser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.LoginTest@33c7e1bb]" name="login" duration-ms="5025" started-at="2021-01-02T20:03:17 EET" depends-on-methods="tests.LoginTest.authenticateNewUser" finished-at="2021-01-02T20:03:22 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@33c7e1bb]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2021-01-02T20:03:17 EET" finished-at="2021-01-02T20:03:17 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=authenticateNewUser status=SUCCESS method=LoginTest.authenticateNewUser()[pri:0, instance:tests.LoginTest@33c7e1bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@33c7e1bb]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2021-01-02T20:03:22 EET" finished-at="2021-01-02T20:03:22 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTest.login()[pri:0, instance:tests.LoginTest@33c7e1bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.LoginTest@33c7e1bb]" name="afterSuite" is-config="true" duration-ms="714" started-at="2021-01-02T20:03:22 EET" finished-at="2021-01-02T20:03:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
