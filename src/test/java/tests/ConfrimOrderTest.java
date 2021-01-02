@@ -24,7 +24,7 @@ public class ConfrimOrderTest extends TestBase {
 		homeObject = new HomePage(driver);
 		homeObject.OpenCreateUserPage();
 		CreateAccountObject = new CreateAccountPage(driver);
-		CreateAccountObject.CreateNewAccount("testaz3176@test.com");
+		CreateAccountObject.CreateNewAccount("testaz300176@test.com");
 
 	}
 
