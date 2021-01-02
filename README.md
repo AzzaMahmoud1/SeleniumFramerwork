@@ -8,6 +8,6 @@ AutoPractice Project using java, Maven, TestNG and POM
 - TestNG
 - POM
 - DDT
-- Eclipse
+- Eclipse IDE
 
 it's thee project for automating automation practice
